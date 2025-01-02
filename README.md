@@ -8,7 +8,8 @@ Welcome to my GitHub profile! I'm passionate about coding, technology, and shari
 - 🌱 I’m currently learning more about cloud computing and Kubernetes.
 - 👯 I’m looking to collaborate on open-source projects and innovative web applications.
 - 💬 Ask me about HTML, CSS, JavaScript, and any development-related topics.
-- 📫 How to reach me: [https://nbcodeblog.gthub.io , https://nbcodeblog.blogspot.com](mailto:nbpn5837@proton.me)
+- 📫 How to reach me: [https://nbcodeblog.gthub.io , https://nbcodeblog.blogspot.com]
+- 📫 Email me: [nbpn5837@proton.me]
 - ⚡ Fun fact: I love exploring new programming languages and frameworks.
 
 ## 🛠️ Technologies & Tools
