@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This Page About How To Add CSS">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Node.js, PHP, Python, SQL, MySQL, MongoDB, XML, XHTML, SAAS, TypeScript, Bootstrap, Tailwind CSS, React.js, Angular.js, Vue.js, jQuery, Express.js, Nest.js, Laravel, Django, Flask, Git, Github, Bitbucket, Gitlab">
+    <meta name="author" content="Nitin Bhardwaj">
+    <meta name="robots" content="index, follow">
+    <title>How To Add CSS</title>
+    <link rel="shortcut icon" href="/Assets/favicon.ico" type="image/x-icon">
+    <style>
+        table {
+            width: 100%;
+            max-width: 800px;
+        }
+        table, th, td {
+            border: 2px solid lightblue;
+            border-collapse: collapse;
+            text-align: justify;
+        }
+        a {
+            text-decoration: none;
+        }
+        tr:hover {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>How To Add CSS</h1>
+    <h2>Three Ways to Insert CSS</h2>
+    <p>When a browser reads a style sheet, it will format the HTML document according to the information in the style sheet.</p>
+    <table>
+        <caption>Add CSS</caption>
+        <tr>
+            <th>Name</th>
+            <th>Link</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Inline CSS</td>
+            <td><a href="inline_css.html" target="_blank" title="Link">Inline CSS</a></td>
+            <td>An inline style may be used to apply a unique style for a single element <br> To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property. <br> An inline style loses many of the advantages of a style sheet (by mixing content with presentation). <br> Use this method sparingly.</td>
+        </tr>
+        <tr>
+            <td>Internal CSS</td>
+            <td><a href="internal_css.html" target="_blank" title="Link">Internal CSS</a></td>
+            <td>An internal style sheet may be used if one single HTML page has a unique style. <br> The internal style is defined inside the style element, inside the head section of an HTML page.</td>
+        </tr>
+        <tr>
+            <td>External CSS</td>
+            <td><a href="external_css.html" target="_blank" title="Link">External CSS</a></td>
+            <td>With an external style sheet, you can change the look of an entire website by changing just one file. <br> Each HTML page must include a reference to the external style sheet file inside the link element, inside the head section of an HTML page. <br> An external style sheet can be written in any text editor, and must be saved with a .css extension. <br> The external .css file should not contain any HTML tags.</td>
+        </tr>
+    </table>
+
+    <h2>Cascading Order</h2>
+    <p>What style will be used when there is more than one style specified for an HTML element</p>
+    <p>All the styles in a page will "cascade" into a new "virtual" style sheet.</p>
+    <table>
+        <caption>Cascading Order</caption>
+        <tr>
+            <th>Name</th>
+            <th>Link</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Inline Style</td>
+            <td><a href="inline_style.html" target="_blank" title="Link">Inline Style</a></td>
+            <td>Inside an HTML element.</td>
+        </tr>
+        <tr>
+            <td>Internal and External Styles</td>
+            <td><a href="internal_style.html" target="_blank" title="Link">Internal Style</a> <br> <a href="external_style.html" target="_blank" title="Link">External Style</a></td>
+            <td>In the head section.</td>
+        </tr>
+        <tr>
+            <td>Browser Default</td>
+            <td><a href="browser_style.html" target="_blank" title="Link">Browser Default Style</a></td>
+            <td>Default Style</td>
+        </tr>
+    </table>
+    <p>So, an inline style has the highest priority, and will override external and internal styles and browser defaults.</p>
+</body>
+</html>
